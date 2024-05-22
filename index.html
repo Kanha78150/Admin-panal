@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Responsive.css">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <!-- Remix icon-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="gridcontainer">
+        <header>
+            <nav>
+                <div class="icon">
+                    <i class="ri-apps-2-line ri-xl"></i>
+                </div>
+                <ul class="ul-nav-flex">
+                    <li class="li-nav-item-flex">
+                        <i class="ri-home-5-line ri-xl"></i><a href="" class="nav-items">Home</a>
+                    </li>
+
+                    <li class="li-nav-item-flex">
+                        <i class="ri-trophy-line ri-xl"></i> <a href="" class="nav-items">
+                            Projects
+                        </a>
+                    </li>
+
+                    <li class="li-nav-item-flex"><i class="ri-bank-line ri-xl"></i>
+                        <a href="" class="nav-items">Billings</a>
+                    </li>
+
+                    <li class="li-nav-item-flex"><i class="ri-user-line ri-xl"></i><a href="" class="nav-items">Team
+                            Members</a></li>
+                    <li class="li-nav-item-flex"><i class="ri-bar-chart-2-fill ri-xl"></i> <a href="" class="nav-items">
+                            Stats
+                        </a></li>
+
+                    <li class="li-nav-item-flex"><i class="ri-settings-5-line ri-xl"></i><a href=""
+                            class="nav-items">Settings</a></li>
+                </ul>
+
+                <div class="profile">
+                    <div class="img-profile">
+                        <div class="online-sataus"></div>
+                        <img src="img/project img.png" alt="Do">
+
+                    </div>
+                    <p class="profile-name">David Milan</p>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="dash-board">
+                <div class="search">
+                    <div class="innear-search">
+                        <i class="ri-search-line ri-xl search-iconi"></i>
+                        <input type="text" placeholder="Search for stats" class="search-input">
+                    </div>
+                </div>
+
+                <div class="user-wishing">
+                    <div class="hello">
+                        <h3>Hello David</h3>
+                        <p>Welcome Back !</p>
+                    </div>
+
+                    <div class="filter-option">
+                        <div class="fliter-input">
+                            <input type="text" placeholder="Filter" class="filter-input"><i
+                                class="ri-equalizer-2-line"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="views-dash">
+                    <div class="card">
+                        <ul class="card-flex-system">
+                            <li>
+                                <div class="icon-circle">
+                                    <i class="ri-eye-line"></i>
+                                </div>
+                            </li>
+
+                            <li class="colrs">
+                                <p class="same colrs">Views</p>
+                            </li>
+
+                            <li class="colrs">
+                                <h4 class="number colrs">500</h4>
+                            </li>
+
+                            <li class="colrs">
+                                <p class="same colrs">Per Day</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <ul class="card-flex-system">
+                            <li>
+                                <div class="icon-circle">
+                                    <i class="ri-compass-3-fill"></i>
+                                </div>
+                            </li>
+
+                            <li class="colrs">
+                                <p class="same colrs">Visits</p>
+                            </li>
+
+                            <li class="colrs">
+                                <h4 class="number colrs">2000</h4>
+                            </li>
+
+                            <li class="colrs">
+                                <p class="same colrs">Per minutes</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <ul class="card-flex-system">
+                            <li>
+                                <div class="icon-circle">
+                                    <i class="ri-store-2-line"></i>
+                                </div>
+                            </li>
+
+                            <li class="colrs">
+                                <p class="same colrs">Orders</p>
+                            </li>
+
+                            <li class="colrs">
+                                <h4 class="number colrs">5100</h4>
+                            </li>
+
+                            <li class="colrs">
+                                <p class="same colrs">Per Day</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="profit-loss">
+                    <div class="box">
+                        <i class="ri-arrow-right-down-line ri-xl"></i>
+                        <div class="part1">
+                            <h4 class="title">Sales</h4>
+                            <p class="para1">Total Sales Today</p>
+                            <h4 class="title">$500</h4>
+                        </div>
+
+                        <div class="progress-container">
+                            <svg class="progress-ring" width="50" height="50">
+                                <circle class="progress-ring__circle" stroke="black" stroke-width="2" fill="transparent"
+                                    r="22" cx="25" cy="25" />
+                            </svg>
+                            <div class="progress-text">0%</div>
+                        </div>
+                    </div>
+
+                    <div class="box2">
+                        <i class="ri-arrow-right-down-line ri-xl"></i>
+                        <div class="part2">
+                            <h4 class="title2">Profit</h4>
+                            <p class="para2">Total day ratio</p>
+                            <h4 class="title2">$150</h4>
+                        </div>
+
+                        <div class="progress-container2">
+                            <svg class="progress-ring2" width="50" height="50">
+                                <circle class="progress-ring__circle2" stroke="black" stroke-width="2"
+                                    fill="transparent" r="22" cx="25" cy="25" />
+                            </svg>
+                            <div class="progress-text2">0%</div>
+                        </div>
+                    </div>
+
+                    <div class="box3">
+                        <i class="ri-arrow-right-up-line ri-xl"></i>
+                        <div class="part3">
+                            <h4 class="title3">Orders</h4>
+                            <p class="para3">Total Order Today</p>
+                            <h4 class="title3">1000</h4>
+                        </div>
+
+                        <div class="progress-container3">
+                            <svg class="progress-ring3" width="50" height="50">
+                                <circle class="progress-ring__circle3" stroke="black" stroke-width="2"
+                                    fill="transparent" r="22" cx="25" cy="25" />
+                            </svg>
+                            <div class="progress-text3">0%</div>
+                        </div>
+                    </div>
+                    <div class="box4">
+                        <i class="ri-arrow-right-up-line ri-xl"></i>
+                        <div class="part4">
+                            <h4 class="title4">Visits</h4>
+                            <p class="para4">Total visit today</p>
+                            <h4 class="title4">400</h4>
+                        </div>
+
+                        <div class="progress-container4">
+                            <svg class="progress-ring4" width="50" height="50">
+                                <circle class="progress-ring__circle4" stroke="black" stroke-width="2"
+                                    fill="transparent" r="22" cx="25" cy="25" />
+                            </svg>
+                            <div class="progress-text4">0%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+
+        <aside>
+            <div class="sells-panael">
+                <div class="sells-panael-header">
+                    <div class="header-title-sell">
+                        <div class="title-sells-reveinu">
+                            <h3 class="sells-panael-title">Sells Revenue</h3>
+                        </div>
+
+                        <div class="dia-wri">
+                            <div class="cover">
+                                <div class="icon-sells-dr">
+                                    <i class="ri-discount-percent-line ri-xl"></i>
+                                </div>
+                                <div class="detiles-sells">
+                                    <h4>230k</h4>
+                                    <p>Sales</p>
+                                </div>
+                            </div>
+
+                            <div class="cover">
+                                <div class="icon-sells-dr">
+                                    <i class="ri-account-circle-line ri-xl"></i>
+                                </div>
+                                <div class="detiles-sells">
+                                    <h4>8.549k</h4>
+                                    <p>Customers</p>
+                                </div>
+                            </div>
+
+                            <div class="cover">
+                                <div class="icon-sells-dr">
+                                    <i class="ri-layout-6-line ri-xl"></i>
+                                </div>
+                                <div class="detiles-sells">
+                                    <h4>1.423k</h4>
+                                    <p>Products</p>
+                                </div>
+                            </div>
+
+                            <div class="cover">
+                                <div class="icon-sells-dr">
+                                    <i class="ri-pie-chart-line ri-xl"></i>
+                                </div>
+                                <div class="detiles-sells">
+                                    <h4>$9745</h4>
+                                    <p>Revenue</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="bar">
+                    <h2>Statistics</h2>
+                    <div class="barstart">
+                        <ul>
+                            <li>80</li>
+                            <li>60</li>
+                            <li>40</li>
+                            <li>20</li>
+                            <li>0</li>
+                        </ul>
+
+                        <div class="bars-heigth bar20">
+                            <p>20%</p>
+                        </div>
+                        <div class="bars-heigth bar30">
+                            <p>30%</p>
+                        </div>
+                        <div class="bars-heigth bar80">
+                            <p>80%</p>
+
+                        </div>
+                        <div class="bars-heigth bar40">
+                            <p>40%</p>
+                        </div>
+                        <div class="bars-heigth bar20">
+                            <p>20%</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="gsap.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
